@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        margin: 10px;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>This is home Page</h1>
+
+      <div>
+        To Return hello world as a String
+        <a href="/hello"><button>Hello World</button></a>
+      </div>
+
+      <div>
+        List of Users in Table
+        <a href="/users"><button>User List</button></a>
+      </div>
+
+      <div>
+        Add a new User
+        <a href="/new_user"><button>New User</button></a>
+      </div>
+
+      <div>
+        Retrive the User Details by There ID
+        <a href="/user"><button>User</button></a>
+      </div>
+    </div>
+  </body>
+</html>
